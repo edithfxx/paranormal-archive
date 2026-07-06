@@ -382,11 +382,12 @@ body {
   outline: none;
   border-color: var(--nv-green);
   box-shadow: 0 0 0 3px rgba(127, 255, 154, 0.18);
-  background: rgba(10, 18, 14, 0.95);
+  /* 用 background-color 而非 background 簡寫，避免清掉 select 箭頭的 background-image */
+  background-color: rgba(10, 18, 14, 0.95);
 }
 .input.is-error {
   border-color: var(--nv-red);
-  background: rgba(255, 77, 77, 0.06);
+  background-color: rgba(255, 77, 77, 0.06);
 }
 .input.is-error:focus {
   box-shadow: 0 0 0 3px rgba(255, 77, 77, 0.25);
