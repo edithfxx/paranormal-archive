@@ -6,6 +6,8 @@
 
 ![Vue](https://img.shields.io/badge/Vue-3-42b883) ![WCAG](https://img.shields.io/badge/WCAG-A%20%2B%20AA-blue) ![No Build](https://img.shields.io/badge/build-none-lightgrey) ![License](https://img.shields.io/badge/license-MIT-green)
 
+**🔗 線上 Demo：<https://edithfxx.github.io/paranormal-archive/>**
+
 ---
 
 ## 目錄
@@ -27,23 +29,6 @@
 一個純前端、免建置的檔案管理介面。使用者可以新增、瀏覽、分類篩選與刪除「超自然現象檔案」，並即時看到統計數據。介面刻意設計成機密調查文件的樣貌——掃描線、雜訊顆粒、REC 錄影指示燈、檔案編號與 `TOP SECRET` 印章——用一個有記憶點的主題,把 CRUD、表單驗證、狀態管理、無障礙這些基本功整合在一起呈現。
 
 **為什麼選這個題目來當作品集**：它足夠小,小到可以把每一行都打磨到「說得出為什麼這樣寫」;又足夠完整,涵蓋了前端日常最核心的幾件事——資料流、元件狀態、表單驗證、效能(computed 快取、lazy load)、無障礙、以及可維護性(集中式常數管理)。
-
----
-
-## 線上預覽與執行
-
-本專案為純靜態網頁,**零相依套件、零建置步驟**。
-
-```bash
-# 方法一：任一本機伺服器（建議，確保字型與圖片資源正常載入）
-python3 -m http.server 8000      # 然後開啟 http://localhost:8000
-# 或
-npx serve
-
-# 方法二：直接用瀏覽器開啟 index.html
-```
-
-> Vue 3 透過 CDN 載入、字型使用 Google Fonts,故執行時需連網。
 
 ---
 
