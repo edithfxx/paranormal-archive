@@ -8,6 +8,14 @@
 
 **🔗 線上 Demo：<https://edithfxx.github.io/paranormal-archive/>**
 
+<p align="center">
+  <a href="https://edithfxx.github.io/paranormal-archive/">
+    <img src="./docs/preview.png" alt="Paranormal Archive 首頁預覽——暗黑學術 × 靈異夜視主題，含機密檔案標題、即時統計面板與分類索引" width="820" />
+  </a>
+</p>
+
+<p align="center"><sub>▲ 首頁一覽：機密檔案標題區、即時統計面板（總數 / 平均恐怖指數 / 高危險檔案）與分類索引 — <a href="https://edithfxx.github.io/paranormal-archive/">點擊進入線上 Demo</a></sub></p>
+
 ---
 
 ## 目錄
