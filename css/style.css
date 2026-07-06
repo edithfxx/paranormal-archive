@@ -368,7 +368,12 @@ body {
   border: 1px solid var(--ink-line);
   border-radius: var(--radius-sm);
   color: var(--ink);
-  transition: all 0.2s ease;
+  /* 只過渡互動狀態該有動畫的屬性；用 all 會連 select 箭頭的
+     background-position / background-size 一起動畫化，造成箭頭飄移 */
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
   width: 100%;
 }
 .input::placeholder {
